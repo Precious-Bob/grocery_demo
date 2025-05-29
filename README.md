@@ -1,12 +1,12 @@
 # Grocery Demo API
 
-This is a demo API for managing groceries, users, and carts. It is built using the NestJS framework and follows a modular architecture.
+This is a grocery delivery service API demo, my submission for the Saleswave coding task
 
 ## Features
 
 - User authentication and authorization (JWT-based).
 - CRUD operations for groceries.
-- Cart management.
+- Simple Cart management.
 
 ## Prerequisites
 
