@@ -10,5 +10,6 @@ import { Grocery, grocerySchema } from './schemas/grocery.schema';
   ],
   controllers: [GroceryController],
   providers: [GroceryService],
+  exports: [GroceryService],
 })
 export class GroceryModule {}
