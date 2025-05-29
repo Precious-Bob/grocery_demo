@@ -6,6 +6,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
 import { GroceryModule } from './grocery/grocery.module';
+import { CartModule } from './cart/cart.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { GroceryModule } from './grocery/grocery.module';
     UsersModule,
     AuthModule,
     GroceryModule,
+    CartModule,
   ],
   controllers: [AppController],
   providers: [AppService],
