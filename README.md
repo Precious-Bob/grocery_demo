@@ -85,6 +85,7 @@ npm run test:e2e
 
 ### Cart Endpoints
 
-- No endpoints defined yet.
-
-
+- **POST** `/cart/items` - Add an item to the cart (protected by JWT).
+- **PUT** `/cart/items/:itemId` - Update an item in the cart (protected by JWT).
+- **DELETE** `/cart/items/:itemId` - Remove an item from the cart (protected by JWT).
+- **GET** `/cart` - Retrieve the cart details (protected by JWT).
