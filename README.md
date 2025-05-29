@@ -60,12 +60,12 @@ Run unit tests with the following command:
 npm run test
 ```
 
-### End-to-End Tests
+### Test the grocery controller
 
-Run end-to-end tests with the following command:
+I write unit tests for the grocery controller path. To test it run the following command:
 
 ```bash
-npm run test:e2e
+npm test -- grocery.controller.spec.ts
 ```
 
 ## API Endpoints
